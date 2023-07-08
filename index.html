@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bezel</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar">
+    <!-- navbar start  -->
+    <nav id="navbar" class="navbar navbar-expand-lg py-3 fixed-top">
+      <div class="container" id="navbarSupportedContent">
+        <div class="logo">
+          <img src="imgs/logo-light.png" class="w-100 dark-logo" alt="logo" />
+          <img  src="imgs/logo-dark.png" class="light-logo d-none " alt="light-logo">
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link pe-3" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pe-3" href="#whoWeAre">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pe-3" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pe-3" href="#whatWeDo">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pe-3" href="#">Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pe-3" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pe-3" href="#contact">Contact</a>
+            </li>
+            <li>
+              <ul class="social-media list-unstyled d-flex py-2">
+                <li>
+                  <a href="#" class="ps-3 text-white">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="ps-3 text-white">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="ps-3 text-white">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end  -->
+    <!-- home start  -->
+    <section id="home">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item text-white vh-100 active">
+            <div class="layout"></div>
+            <img src="imgs/bg-image-28.jpg" class="" alt="..." />
+            <div class="item-content w-100 text-center position-absolute">
+              <h1>Get Awesome.</h1>
+              <h4>We are an innovative company making digital stuff.</h4>
+              <div class="btns pt-3">
+                <a
+                  href="#"
+                  class="btn fw-bold px-4 me-2 py-3 btn-color dark-hover"
+                  >Hire US</a
+                >
+                <a
+                  href="#"
+                  class="btn fw-bold px-4 py-3 border-white text-white light-hover"
+                  >Services</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item text-white vh-100">
+            <div class="layout"></div>
+            <img src="imgs/bg-image-29.jpg" class="" alt="..." />
+            <div class="item-content w-100 text-center position-absolute">
+              <h1>Create With Bezel.</h1>
+              <h4>We help ambitious companies create new value.</h4>
+              <div class="btns">
+                <a href="#" class="btn btn-color dark-hover">Read More</a>
+                <a href="#" class="btn border-white text-white light-hover"
+                  >Contact</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide-arrows d-none d-md-block">
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <div class="icon d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-lg fa-arrow-left d-block"></i>
+            </div>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-prev mt-5"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <div class="icon d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-lg fa-arrow-right d-block"></i>
+            </div>
+            <span class="visually-hidden">Previous</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- home end  -->
+    <!-- whoWeAre start  -->
+    <section id="whoWeAre" class="text-center sec-padding">
+      <h6 class="pb-3">WHO WE ARE</h6>
+      <p class="text-muted max-50 mx-auto">
+        We are an innovative company. We develop and design
+        <span class="" id="element"></span>for costumers around the world. Our
+        clients are some of the most forward-looking companies in the world.
+      </p>
+      <button class="btn border-1 rounded-0 px-4 py-3 mt-4">Read More</button>
+    </section>
+    <!-- whoWeAre end  -->
+    <!-- team strat  -->
+    <section id="team" class="sec-padding">
+      <div class="container">
+        <div class="sec-header text-center">
+          <h2 data-bigletter="C" class="mb-3 text-black position-relative">
+            Creative Team
+          </h2>
+          <p>We are digital thinkers</p>
+        </div>
+        <div class="row pt-5 gy-3 gy-md-0">
+          <div class="col-md-3  overflow-hidden">
+            <div class="teamMember  position-relative">
+              <img src="imgs/team-1.jpg" class="w-100" alt="team-1" />
+              <div
+                class="layer d-flex justify-content-between flex-column text-white"
+              >
+                <div class="social">
+                  <ul class="social-media list-unstyled d-flex py-3">
+                    <li>
+                      <a href="#" class="ps-3 text-white">
+                        <i class="fa-brands fa-sm fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="ps-3 text-white">
+                        <i class="fa-brands fa-sm fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="ps-3 text-white">
+                        <i class="fa-brands fa-sm fa-linkedin-in"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="layer-desc px-3 py-3">
+                  <h5 class="m-0">LUKE CAGE</h5>
+                  <span>Founder & CEO</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="teamMember  position-relative">
+              <img src="imgs/team-2.jpg" class="w-100" alt="team-1" />
+              <div
+                class="layer d-flex justify-content-between flex-column text-white"
+              >
+                <div class="social">
+                  <ul class="social-media list-unstyled d-flex py-3">
+                    <li>
+                      <a href="#" class="ps-3 text-white">
+                        <i class="fa-brands fa-sm fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="ps-3 text-white">
+                        <i class="fa-brands fa-sm fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="ps-3 text-white">
+                        <i class="fa-brands fa-sm fa-linkedin-in"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="layer-desc px-3 py-3">
+                  <h5 class="m-0">LUKE CAGE</h5>
+                  <span>Founder & CEO</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="teamMember position-relative">
+              <img src="imgs/team-3.jpg" class="w-100" alt="team-1" />
+              <div
+                class="layer d-flex justify-content-between flex-column text-white"
+              >
+                <div class="social">
+                  <ul class="social-media list-unstyled d-flex py-3">
+                    <li>
+                      <a href="#" class="ps-3 text-white">
+                        <i class="fa-brands fa-sm fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="ps-3 text-white">
+                        <i class="fa-brands fa-sm fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="ps-3 text-white">
+                        <i class="fa-brands fa-sm fa-linkedin-in"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="layer-desc px-3 py-3">
+                  <h5 class="m-0">LUKE CAGE</h5>
+                  <span>Founder & CEO</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="teamMember position-relative">
+              <img src="imgs/team-4.jpg" class="w-100" alt="team-1" />
+              <div
+                class="layer d-flex justify-content-between flex-column text-white"
+              >
+                <div class="social">
+                  <ul class="social-media list-unstyled d-flex py-3">
+                    <li>
+                      <a href="#" class="ps-3 text-white">
+                        <i class="fa-brands fa-sm fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="ps-3 text-white">
+                        <i class="fa-brands fa-sm fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="ps-3 text-white">
+                        <i class="fa-brands fa-sm fa-linkedin-in"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="layer-desc px-3 py-3">
+                  <h5 class="m-0">LUKE CAGE</h5>
+                  <span>Founder & CEO</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- team end  -->
+    <!-- whatWeDo start  -->
+    <section id="whatWeDo" class="sec-padding">
+      <div class="container">
+        <div class="row center ">
+          <div class="col-md-2">
+            <h5>STUNNING DESIGN</h5>
+          </div>
+          <div class="col-md-2">
+            <h5>TIME SAVER</h5>
+          </div>
+          <div class="col-md-2">
+            <h5>CLEAN CODE</h5>
+          </div>
+          <div class="col-md-2">
+            <h5>CUSTOMIZABLE</h5>
+          </div>
+          <div class="col-md-2">
+            <h5>PERFECT LAYOUT</h5>
+          </div>
+          <div class="col-md-2">
+            <h5>RETINA READY</h5>
+          </div>
+        </div>
+        <div class="row sec-padding">
+          <div class="col-md-4">
+            <div class="sec-header">
+              <h2 data-bigletter="W" class="mb-3 position-relative">
+                What We Do.
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aliquam ipsam ullam incidunt itaque nemo omnis temporibus totam
+                quibusdam repellat vero, recusandae excepturi dignissimos velit
+                et alias amet, quia facilis perferendis.
+              </p>
+            </div>
+          </div>
+          <div class="offset-md-2 col-md-3 pt-3 pt-md-0">
+            <ul class="list-unstyled text-white">
+              <li>
+                <i class="fa-regular fa-circle-check pe-2 pb-3"></i>Research
+              </li>
+              <li>
+                <i class="fa-regular fa-circle-check pe-2 pb-3"></i>Opportunity
+                Analysis
+              </li>
+              <li>
+                <i class="fa-regular fa-circle-check pe-2 pb-3"></i>Consulting
+              </li>
+              <li>
+                <i class="fa-regular fa-circle-check pe-2 pb-3"></i>Brand
+                Planning
+              </li>
+              <li>
+                <i class="fa-regular fa-circle-check pe-2 pb-3"></i>Customer
+                Support
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul class="list-unstyled text-white">
+              <li>
+                <i class="fa-regular fa-circle-check pe-2 pb-3"></i>Logo &
+                Branding
+              </li>
+              <li>
+                <i class="fa-regular fa-circle-check pe-2 pb-3"></i>Style guides
+              </li>
+              <li>
+                <i class="fa-regular fa-circle-check pe-2 pb-3"></i>Motion
+                graphics
+              </li>
+              <li>
+                <i class="fa-regular fa-circle-check pe-2 pb-3"></i>UX/UI-design
+              </li>
+              <li>
+                <i class="fa-regular fa-circle-check pe-2 pb-3"></i>Social media
+                design
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- whatWeDo end  -->
+    <!-- pricing start  -->
+    <section id="pricing" class="sec-padding">
+      <div class="container">
+        <div class="sec-header text-center">
+          <h2 data-bigletter="C" class="mb-3 text-black position-relative">
+            Cheap Prices
+          </h2>
+          <p>We provide the best quality</p>
+        </div>
+        <div class="row pt-5 gy-5 gy-md-0">
+          <div class="col-md-3">
+            <div class="price-box shadow bg-white px-4 py-5">
+              <h4>Starter</h4>
+              <h2 class="py-3"><span>$</span>9</h2>
+              <ul class="list-unstyled pt-3">
+                <li class="pb-3">Unlimited Connections</li>
+                <li class="pb-3">24/7 Support</li>
+                <li class="pb-3">Full SSL Protection</li>
+                <li class="pb-3">Unlimited Channels</li>
+              </ul>
+              <button class="btn">Sign Up</button>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="price-box shadow bg-white px-4 py-5">
+              <h4>Silver</h4>
+              <h2 class="py-3"><span>$</span>19</h2>
+              <ul class="list-unstyled pt-3">
+                <li class="pb-3">Unlimited Connections</li>
+                <li class="pb-3">24/7 Support</li>
+                <li class="pb-3">Full SSL Protection</li>
+                <li class="pb-3">Unlimited Channels</li>
+              </ul>
+              <button class="btn">Sign Up</button>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="price-box shadow gold bg-white px-4 py-5">
+              <h4 class="position-relative">
+                Gold <span class="rounded-5 px-2 py-1">Best Value</span>
+              </h4>
+              <h2 class="py-3"><span>$</span>29</h2>
+              <ul class="list-unstyled pt-3">
+                <li class="pb-3">Unlimited Connections</li>
+                <li class="pb-3">24/7 Support</li>
+                <li class="pb-3">Full SSL Protection</li>
+                <li class="pb-3">Unlimited Channels</li>
+              </ul>
+              <button class="btn">Sign Up</button>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="price-box shadow bg-white px-4 py-5">
+              <h4>Platinum</h4>
+              <h2 class="py-3"><span>$</span>49</h2>
+              <ul class="list-unstyled pt-3">
+                <li class="pb-3">Unlimited Connections</li>
+                <li class="pb-3">24/7 Support</li>
+                <li class="pb-3">Full SSL Protection</li>
+                <li class="pb-3">Unlimited Channels</li>
+              </ul>
+              <button class="btn">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- pricing end  -->
+    <!-- customers start  -->
+    <section id="customers" class="sec-padding text-center">
+      <div class="container">
+        <h6 class="text-black">HAPPY CUSTOMERS</h6>
+        <div id="customersSlider" class="carousel slide w-100  mx-auto">
+          <div class="carousel-inner">
+            <div class="carousel-item rounded shadow active">
+              <img src="imgs/testimonial-1.jpg" class="rounded-circle" alt="" />
+              <div class="customer pt-4 bg-white">
+                <div class="customer-comment p-5">
+                  <h4 class="pt-4 text-black">Marissa Mayer</h4>
+                  <span>CEO, Yahoo</span>
+                  <p class="pt-4 text-body-tertiary">
+                    Quo rem cumque facere modi beatae. Deleniti nisi, repellat
+                    quae aspernatur consequatur consequuntur, fugit asperiores
+                    delectus beatae. Quae veniam, quidem cupiditate quia? Ut
+                    iste deleniti.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item rounded shadow ">
+              <img src="imgs/testimonial-2.jpg" class="rounded-circle" alt="" />
+              <div class="customer pt-4 bg-white">
+                <div class="customer-comment p-5">
+                  <h4 class="pt-4 text-black">Mark Zuckerberg</h4>
+                  <span>Founder & CEO, Facebook</span>
+                  <p class="pt-4 text-body-tertiary">
+                    Consectetur adipisicing elit. Perspiciatis aperiam quaerat
+                    iure veritatis fugit debitis, repellat aut accusantium culpa
+                    ipsum ex ipsa blanditiis recusandae, sit similique, eius
+                    assumenda porro pariatur.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-indicators mt-5 position-static">
+            <button
+              type="button"
+              data-bs-target="#customersSlider"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#customersSlider"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#customersSlider"
+            data-bs-slide="prev"
+          >
+            <i class="fa-solid fa-2xl fa-arrow-left"></i>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#customersSlider"
+            data-bs-slide="next"
+          >
+            <i class="fa-solid fa-2xl fa-arrow-right"></i>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- customers end  -->
+
+    <!-- contact start  -->
+    <section id="contact">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 px-0 position-relative">
+            <div class="layer"></div>
+            <div
+              style="
+                max-width: 100%;
+                list-style: none;
+                transition: none;
+                overflow: hidden;
+                width: 100%;
+                height: 100%;
+              "
+            >
+              <div
+                id="embed-map-canvas"
+                style="height: 100%; width: 100%; max-width: 100%"
+              >
+                <iframe
+                  style="height: 100%; width: 100%; border: 0"
+                  frameborder="0"
+                  src="https://www.google.com/maps/embed/v1/place?q=Egypt&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                ></iframe>
+              </div>
+              <a
+                class="googlemaps-made"
+                href="https://www.bootstrapskins.com/themes"
+                id="enable-map-info"
+                >premium bootstrap themes</a
+              ><style>
+                #embed-map-canvas img {
+                  max-width: none !important;
+                  background: none !important;
+                  font-size: inherit;
+                  font-weight: inherit;
+                }
+              </style>
+            </div>
+          </div>
+          <div class="col-md-4 sec-padding offset-md-1">
+            <div class="contactForm bg-white">
+              <div class="sec-header">
+                <h2 data-bigletter="G" class="mb-3 position-relative">
+                  Get In Touch.
+                </h2>
+                <p>Let's work together.</p>
+              </div>
+              <form>
+                <label class="form-label" for="Name">Your Name</label>
+                <input class="form-control" type="text" />
+
+                <label class="form-label pt-4" for="email">Your Mail</label>
+                <input class="form-control" type="email" />
+
+                <label class="form-label pt-4" for="Phone">Phone Number</label>
+                <input class="form-control" type="phone" />
+
+                <label class="form-label pt-4" for="Name">Your Massage</label>
+                <textarea
+                  class="form-control"
+                  name=""
+                  id=""
+                  rows="3"
+                ></textarea>
+
+                <button class="btn mt-4 px-4 py-3 rounded-1">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact end  -->
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Websites", "Softwares", "Apps"],
+        loop: true,
+        typeSpeed: 50,
+        backSpeed: 80,
+        startDelay: 1000,
+        backDelay: 1500,
+        showCursor: true,
+      });
+    </script>
+  </body>
+</html>
